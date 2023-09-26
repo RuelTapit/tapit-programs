@@ -1,0 +1,69 @@
+body.flash {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff6e7f, #bfe9ff); /* Gradient Background transitioning from Pink to Light Blue */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.containerssss {
+    background-color: #ffffff; /* White Background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Soft Shadow */
+    width: 50%; /* Take half of the viewport's width */
+    max-width: 550px; /* Maximum width set to 550px */
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ff6e7f; /* Pink Border */
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+button.clickssss {
+    background-color: #ff6e7f; /* Pink Background */
+    border: none;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.clickssss:hover {
+    background-color: #ff4e6f; /* Darker Pink for Hover Effect */
+}
+
+h2, p {
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.faiz {
+    font-size: 26px;
+    color: #ff6e7f; /* Pink Color for Result Text */
+    border-top: 2px solid #ff6e7f; /* Pink Border at the Top */
+    padding-top: 20px;
+}

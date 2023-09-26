@@ -1,0 +1,82 @@
+body.allen {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #FF9A8D, #FFD5AE); /* Gradient Background transitioning from Coral to Peach */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.lalagyan {
+    background-color: #ffffff; /* White Background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Soft Shadow */
+    width: 50%; /* Take half of the viewport's width */
+    max-width: 400px; /* Maximum width set to 400px */
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #FF9A8D; /* Coral Border */
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+button.clicksss {
+    background-color: #FF9A8D; /* Coral Background */
+    border: none;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.clicksss:hover {
+    background-color: #FF846D; /* Darker Coral for Hover Effect */
+}
+
+h3, p {
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.wizard {
+    font-size: 24px;
+    color: #FF9A8D; /* Coral Color for Answer Text */
+}
+
+.back-buttons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-buttons a {
+    background-color: #FF9A8D; /* Coral Background */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-buttons a:hover {
+    background-color: #FF846D; /* Darker Coral for Hover Effect */
+}

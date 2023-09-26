@@ -1,0 +1,61 @@
+body.batman {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #36d1dc, #5b86e5); /* Gradient background color */
+    color: #fff; /* Setting text color to white for better contrast with the background */
+    height: 100vh; /* Fill the viewport height */
+    display: flex;
+    align-items: center; /* Centering the container vertically */
+    justify-content: center; /* Centering the container horizontally */
+}
+
+.containerss {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for better visibility of content */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
+    width: 60%;
+}
+
+label {
+    display: block; /* To avoid using </br> for line breaks */
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px; /* Spacing between label and input */
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Spacing between consecutive inputs */
+}
+
+button.clickss {
+    width: 100%;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.clickss:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+p.blade {
+    font-size: 20px;
+    color: #555;
+}

@@ -1,0 +1,82 @@
+body.arthur {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #84fab0, #8fd3f4); /* Gradient Background transitioning from Light Green to Light Blue */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.lalagyannn {
+    background-color: #ffffff; /* White Background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Soft Shadow */
+    width: 50%; /* Take half of the viewport's width */
+    max-width: 460px; /* Maximum width set to 400px */
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #84fab0; /* Light Green Border */
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+button.clicks {
+    background-color: #84fab0; /* Light Green Background */
+    border: none;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.clicks:hover {
+    background-color: #66e9a1; /* Darker Green for Hover Effect */
+}
+
+h3, p {
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.kiva {
+    font-size: 22px;
+    color: #84fab0; /* Light Green Color for Result Text */
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-button a {
+    background-color: #84fab0; /* Light Green Background */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #66e9a1; /* Darker Green for Hover Effect */
+}
